@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+            <link rel="stylesheet" href="styles/styles.css" >
+    </head>
+    <body>
+            <header>
+                    <h1 class="header__title">Notes App</h1>
+                    <h2 class="header__subtitle">Take notes and never forget</h2>
+            </header>
+            <section >
+                <div class="actions">
+                    <div class="action__container action__container--spaced">
+                        <a href="index.html">Home</a>
+                        <span id='last-edit'></span>
+                   </div>
+                </div>
+            
+                <input id ='note-title' class="title-input" placeholder="Note Title">
+      
+                <textarea id="note-body"  class="body-input" placeholder="Enter Note Text"></textarea>
+                <button id ="remove-note" class="button button--secondary">Remove Note</button>
+    
+            </section>
+
+            <script src="scripts/edit-bundle.js"></script>
+    </body>
+</html>
+
